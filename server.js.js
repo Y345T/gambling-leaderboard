@@ -23,7 +23,7 @@ app.get('/api/leaderboard', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: 'Error fetching affiliate stats' });
   }
-}); // Make sure this closing parenthesis and brace are correct
+});
 
 // Start the server
 app.listen(port, () => {
